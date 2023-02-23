@@ -1,0 +1,10 @@
+How Sentiment analysis is done?
+
+1. Dataset is taken in along its input and Output result. 
+2. Data Cleaning is done.
+    2.1 Remove special characters like # or ...
+    2.2 Convert to small case.
+    2.3 Dropping stop words or words which do not contribute any kind of meaning ir significance to the analysis like 'the' or 'this'
+    2.4 Convert every word to its root format
+3. Cleaned data is taken and is classified into it's BAG OF WORDS format.
+4. Naive Bayes Classifier can now be used to classify the review.
